@@ -56,4 +56,5 @@ print(Tuple)
 Dict = {"name": "Srashti", "age": 22, "canVote": True}
 print(Dict)
 
+
 # In Python everything is an object.
