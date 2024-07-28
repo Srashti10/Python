@@ -21,3 +21,17 @@ elif (operator == "//"):
     print("Floor Division of given numbers is", num1//num2)
 
 
+# To replicate lines (Alt+Shift+DownArrow)
+# To get multiple cursors (Alt + click)
+
+# Harry's Sulution
+
+a = 50
+b = 3
+
+print("The value of" ,a, "+" ,b, "is:", a+b )
+print("The value of" ,a, "-" ,b, "is:", a-b )
+print("The value of" ,a, "*" ,b, "is:", a*b )
+print("The value of" ,a, "/" ,b, "is:", a/b )
+
+
