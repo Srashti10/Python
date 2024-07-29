@@ -1,9 +1,14 @@
 # Type Casting
 # Type Casting means conversion of one data type to other data type(e.g: String to Integer)
 # Two Types of Type Casting: Implicit and Explicit
-# Implicit Conversion: Python itself does the conversion without any user command.
-# Explicit Conversion: User tells python interpreter to convert the data types. Various functions for explicit conversion are:
-# int(), float(),hex(),oct(),str(),etc
+"""Implicit Conversion: Python itself does the conversion without any user command.
+   There are an order in data types in python. So when we are performing operations on a high order data type and 
+   a low order data type, then pythin wil convert low order data type to high order data type.
+"""
+"""Explicit Conversion: User tells python interpreter to convert the data types.
+   Various functions for explicit conversion are:
+   int(), float(),hex(),oct(),str(),etc
+"""
 
 # Concatination of strings
 a = "Srashti"
@@ -27,3 +32,10 @@ e = 1
 f = 2
 print(str(e) + str(f))  # conversion of integer to string
 
+# Implicit TypeCasting
+g = 1.9
+h = 8
+print(g+h)  # Python converts h from integer to float. Float has higher order than int.
+print(type(g))
+print(type(h))
+print(type(g+h))
