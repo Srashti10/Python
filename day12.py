@@ -11,4 +11,4 @@ print(names[-1:-3]) # It will take len(names) before -3 and -1. In this case it 
 print(len(names))
 fruit = "mango"
 len1 = len(fruit)
-print(fruit ,"is a", len1, "letters world." )
+print(fruit ,"is a", len1, "letter world." )
