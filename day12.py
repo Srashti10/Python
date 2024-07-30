@@ -12,3 +12,8 @@ print(len(names))
 fruit = "mango"
 len1 = len(fruit)
 print(fruit ,"is a", len1, "letter world." )
+
+
+# Quick Quiz
+nm = "Harry"
+print(nm[-4:-2])
