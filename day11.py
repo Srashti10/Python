@@ -28,4 +28,12 @@ print(firstName[4])
 print(firstName[5])
 print(firstName[6])
 # print(firstName[7]) This throws an error
+
+# Looping through the string
+
+for i in conversation:    # to get all the characters of the string
+    print(i)
+
+for i in firstName:
+    print(i)
  
