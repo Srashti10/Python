@@ -16,6 +16,22 @@ print(a.replace("Harry", "John"))
 # It will split the character of the string wherever * is present and each split term is the element of the new list.
 print(a.split("*"))
 
+# Capitalize() method is used to change the first letter of the sentence.
+# It also converts all the other letters except for first to the lowercase.
+blogHeading = "introduction to pyTHon"
+print(blogHeading.capitalize())
 
+# center() method is used to align the content to the center. 
+# We need to give the parameter to how much unit we want to shift from the corner.
+str1 = "Welcome to the console"
+print(str1.center(50))  # It will make the length of the string 50.
+print(len(str1))
+print(len(str1.center(50)))
 
+# count() method is used to count how many times any character occurs in the string.
+print(a.count("Harry"))
+name = "Harry"
+print(name.count("r"))
+
+# endswith() method is used to check whether a given string ends with a particular character or not.
 
