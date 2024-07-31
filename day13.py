@@ -103,8 +103,7 @@ print(str12.istitle())
 str13 = "SrahtI"
 print(str13.swapcase())
 
-print(str)
-print(str.title())
+
 
 
 
