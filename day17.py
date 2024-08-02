@@ -14,6 +14,9 @@
 # range()
 # It has three parameters: start, stop and step
 
+for i in range(5):  # It will print numbers from 0 to 4
+    print(i)
+
 for i in range(5,10):  # It will print numbers from 5 to 9
     print(i)
 
