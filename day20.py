@@ -5,6 +5,7 @@
 # Functions are of two types: 1- Built-in function 2- User-defined functions  
 # In built-in function we don't have to use the def keyword. some examples of built-in functions are: range(), print(),type().
 # Rules of naming the functions are same as variables.
+# (Should start with a letter or underscore, only contains alpha numeric characters and underscore. That is a-z,A-Z,0-9,_ )
 # Geometric Mean = (a*b)/(a+b)
 # How to create a function to create geometric mean.
 def calculateGmean(a,b):    # calculateGmean = name of the function, (a,b) = arguments of the function
