@@ -2,8 +2,14 @@
 # List is the ordered collection of data types.List items are seperated by commas and enclosed in brackets.
 # Lists are changable, we can change them after creation.
 # List can have multiple data types in the same list.
-list = [1,2,'Srashti',True,[4,5]]
+list = [1,2,'Srashti',True,[4,5],6,7,67,32,99,350]
 print(list)
+print(list[:])   # It will also print the entire list.
+print(list[1:])  # It will print the list from index 1 to the end.
+# Jump Index 
+# We can print list items by jumping to some indexes.
+print(list[1:11:2])  # It will print items after jumping 2 index positions.
+#Since slicing indexes are 1 to 11 then it will print index elements of 1 to 10 with the gap of 2 indexes between each element.
 l = [3,5,6]
 print(l)
 print(type(l))
