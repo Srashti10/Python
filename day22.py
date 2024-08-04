@@ -33,3 +33,14 @@ if "arry" in "Harry":
     print("True")
 else:
     print("False")
+
+#List Comprehension
+#List comprehension is used for creating new lists from iterables like lists, tuples, dictionaries, sets and even in strings.
+
+lst = [i for i in range(4)]  # It will make a list starting from number 0 to 3
+lst1 = [i*i for i in range (10)]
+print(lst)
+print(lst1)
+# We can also use conditions in list comprehension
+lst2 = [i*i for i in range(10) if i%2 ==0] # It will print the number only if number is even.
+print(lst2)
