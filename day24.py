@@ -1,5 +1,6 @@
 # Tuples
 # Tuple elements are enclosed inside parenthesis(). We can not change the tuple. It is immutable.
+# Strings and tuples are immutable. Lists are mutable.
 tup = (1,5,6, "Harry", True,4.56)
 print(tup)
 print(type(tup))
@@ -41,3 +42,4 @@ print(tuple2)
 print(tuple[0:])  # It is equal to tuple[0:len(tuple)]
 print(tuple[:4])  # It is equal to tuple[0:4]
 print(tuple[:])   # It will print the entire tuple.
+
