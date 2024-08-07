@@ -12,6 +12,8 @@ if yourAns == answers[0]:
 else:
     print("Sorry, Wrong Answer.")
 
+# I will complete this after some time.
+
 
 
         
