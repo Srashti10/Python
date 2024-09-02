@@ -22,4 +22,3 @@ print(txt)
 # By f string we can directly directly convert an integer to a string.
 print(f"{2*30}")  # It will print 60 as a string.
 print(type(f"{2*30}"))
-
