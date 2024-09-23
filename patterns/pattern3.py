@@ -13,4 +13,3 @@
 #         print(j,end='')  
 #     print()
 
-num = int(input())
