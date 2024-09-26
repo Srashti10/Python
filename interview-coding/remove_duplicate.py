@@ -3,10 +3,12 @@
 # print(temp)
 
 list = [1,1,6,6,6,2,2,2,5,3,3]
-app = list.sort()
-n = len(app)
-for i in app:
-    if app[i] == app[i+1]:
-        list.remove(app[i+1])
+list.sort()
+print(list)
+# print(app)
+# n = len(app)
+# for i in app:
+#     if app[i] == app[i+1]:
+#         list.remove(app[i+1])
 
-print(a)
+# print(app)
