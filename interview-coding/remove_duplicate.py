@@ -5,10 +5,10 @@
 list = [1,1,6,6,6,2,2,2,5,3,3]
 list.sort()
 print(list)
-# print(app)
-# n = len(app)
-# for i in app:
-#     if app[i] == app[i+1]:
-#         list.remove(app[i+1])
+n = len(list)
 
-# print(app)
+for i in list:
+    if list[i] == list[i+1]:
+        list.remove(list[i+1])
+
+print(list)
