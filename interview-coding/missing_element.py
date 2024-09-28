@@ -6,5 +6,3 @@ for i in arr:
     sum2 = sum2 + i
 print(sum1)
 print(sum2)
-m = sum1 - sum2
-print(m)
