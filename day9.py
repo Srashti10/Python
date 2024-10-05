@@ -36,6 +36,6 @@ print(str(e) + str(f))  # conversion of integer to string
 g = 1.9
 h = 8
 print(g+h)  # Python converts h from integer to float. Float has higher order than int.
-# print(type(g))
+print(type(g))
 print(type(h))
 print(type(g+h))
