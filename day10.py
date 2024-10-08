@@ -41,9 +41,9 @@ y = int(input("Enter second number: \n"))
 print("The value of", x, "+" ,y, "is", x+y)
 print("The value of", x, "-" ,y, "is", x-y)
 print("The value of", x, "*" ,y, "is", x*y)
-# print("The value of", x, "/" ,y, "is", x/y)
-# print("The value of", x, "**" ,y, "is", x**y)
-# print("The value of", x, "//" ,y, "is", x//y)
+print("The value of", x, "/" ,y, "is", x/y)
+print("The value of", x, "**" ,y, "is", x**y)
+print("The value of", x, "//" ,y, "is", x//y)
 
 
 
