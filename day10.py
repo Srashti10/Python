@@ -38,7 +38,7 @@ print("The value of", x, "//" ,y, "is", x//y)
 x = int(input("Enter first number: \n"))
 y = int(input("Enter second number: \n"))
 
-# print("The value of", x, "+" ,y, "is", x+y)
+print("The value of", x, "+" ,y, "is", x+y)
 print("The value of", x, "-" ,y, "is", x-y)
 print("The value of", x, "*" ,y, "is", x*y)
 print("The value of", x, "/" ,y, "is", x/y)
