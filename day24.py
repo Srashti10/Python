@@ -9,8 +9,8 @@ print(type(tup))
 # If we want to create tuple with single element we should use comma(,) with it.
 tup1 = (1)  # The type of this tup1 will be int.
 tup2 = (1,)  # The type of this tup2 will be tuple.
-print(type(tup1))
-print(type(tup2))
+# print(type(tup1))
+# print(type(tup2))
 
 # We can change elements in list, but not in tuple.
 list = [1,2,3,4]
