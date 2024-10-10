@@ -2,7 +2,7 @@
 # Tuple elements are enclosed inside parenthesis(). We can not change the tuple. It is immutable.
 # Strings and tuples are immutable. Lists are mutable.
 tup = (1,5,6, "Harry", True,4.56)
-print(tup)
+# print(tup)
 print(type(tup))
 
 # If we give only one value inside paranthesis, then python interpreter will consider it as integer.
