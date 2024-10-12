@@ -37,7 +37,7 @@ else:
 
 print(tuple[1:3])
 print(tuple)  # The value of tuple remains same.
-tuple2 = tuple[1:4]
+# tuple2 = tuple[1:4]
 print(tuple2)
 print(tuple[0:])  # It is equal to tuple[0:len(tuple)]
 print(tuple[:4])  # It is equal to tuple[0:4]
